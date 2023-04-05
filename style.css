@@ -2,7 +2,37 @@ html {
   height: 100%;
   width: 100%;
 }
-
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box ;
+}
+.all{
+  height: 100vh;
+  text-align: center;
+  background-color: gray;
+}
+.all input{
+  margin-top: 20px;
+  border: 1px solid black;
+}
+.all button{
+  background-color: red;
+  color: black;
+  border: 1px solid white;
+  padding: 5px;
+}
+.all button:hover{
+  background-color: red;
+  color:white ;
+}
+.top-bar button:hover{
+  background-color: red;
+  color:black ;
+}
+.all span{
+   color : white;
+}
 .top-bar{
    background-color: black;
     color: white;
@@ -11,6 +41,14 @@ html {
   justify-content: space-between;
 
   padding: 20px
-  
-  
+ }
+.top-bar button{
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
+#winMessage{
+  margin-top: 20px;
+  color: white;
+  font-size: 30px;
 }
